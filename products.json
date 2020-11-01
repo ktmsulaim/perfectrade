@@ -1,0 +1,550 @@
+[
+    {
+        "id":1,
+        "name":"Access Control",
+        "description": "Access control system is designed to control the access of personnel into an Organization by the process of authorization. The Biometric access control system provides a convenient and quick access to an authorized person.",
+        "features": []
+
+    },
+    {
+        "id":2,
+        "name":"FRX MFSTAB II",
+        "description":"Time attendance",
+        "features":
+        [
+            {
+                "key":"Processor",
+                "value":"ARM Cortex A7 @1.3GHz Quad Core Processor"
+            },
+            {
+                "key":"Memory",
+                "value":"1GB RAM"
+            },
+            {
+                "key":"Storage",
+                "value":"8GB Flash"
+            },
+            {
+                "key":"Display",
+                "value":"7\" TFT LCD with 1024x600 Resolution"
+            },
+            {
+                "key":"OS",
+                "value":"GMS Certified Android OS"
+            },
+            {
+                "key":"Camera",
+                "value":"5MP Auto Focus Front Camera with Flash LED"
+            },
+            {
+                "key":"LED Indicators",
+                "value": "Power On/Off, Battery Charging Status"
+            }
+        ]
+    },
+    {
+        "id":3,
+        "name":"FRXMOXA7",
+        "description":"Portable Rugged Biometric Terminal for Enrollment, Authentication and Identification",
+        "features": [
+            {"key":"Processor", "value":"1 GHz, 64-bit ARM Cortex-A Quad-Core Processor"},
+            {"key":"Memory", "value":"1GB RAM"},
+            {"key":"Storage", "value":"8GB with Expandable up to 32GB"},
+            {"key":"Display", "value":"7\" IPS LCD with 1024x600 Resolution, Multi Point Capacitive Touch Screen with 6H Toughen Glass"},
+            {"key":"OS", "value":"Customized Android OS / GMS Certified Android OS (optional)"},
+            {"key":"Camera", "value":"2MP Front Camera & 5MP Auto Focus Rear Camera with Flash LED"},
+
+            {
+                "key":"Fingerprint Scanner",
+                "value":"PIV/STQC Certified FAP10 Optical Fingerprint Scanner (FAP20 Optional)"
+            },
+            {
+                "key":"Reader",
+                "value":"13.56 MHz Contactless Card Reader Mifare, ISO14443 A & B"
+            },
+            {
+                "key":"Barcode and QR code",
+                "value":"1D & 2D Supported Camera Based Barcode & QR Code Scanner"
+            },
+            {
+                "key":"Waterproof and Dustproof",
+                "value":"IP65"
+            },
+            {
+                "key":"Shockproof",
+                "value":"1.0M Falling Rugged Device"
+            },
+            {
+                "key":"Use case",
+                "value":"Wall Mount & Handheld Grip (optional)"
+            },
+            {
+                "key":"AC/DC \n Input AC",
+                "value":"100~240V, 50Hz; Output DC: 5V/3A"
+            },
+            {
+                "key":"Battery Pack",
+                "value":"Li-Ion 8000 mAH Battery"
+            }
+        ]
+    },
+    {
+        "id":4,
+        "name":"FRXmDESK7",
+        "description":"Fingerprint Biometric Device",
+        "features":
+        [
+            {"key":"Processor", "value":"1.2 GHz Quad Core"},
+            {"key":"Memory", "value":"2 GB"},
+            {"key":"Storage", "value":"8 GB"},
+            {"key":"Display", "value":"7\" TFT LCD with 1024x600 Resolution"},
+            {"key":"OS", "value":"GMS Certified Android OS"},
+            {"key":"Camera", "value":"Rear Camera with auto focus and 5 MP resolution , LED flash"},
+            {
+                "key":"Connectivity",
+                "value":"Wi-Fi 802.11 b/g/n, Bluetooth v4.0 \n Single SIM with 4G support (Bands - LTE 850 (5), LTE 1800 (3), LTE 2100 (1), LTE 2300 (40))"
+            },
+            {
+                "key":"Location Technology",
+                "value":"GPS"
+            },
+            {
+                "key":"Battery",
+                "value":"6000 mAH"
+            },
+            {
+                "key":"Opertaing Voltage",
+                "value":"5 Vdc/2 Amp"
+            },
+            {
+                "key":"Dimensions",
+                "value":"251 x 130 x 36 mm"
+            },
+            {
+                "key":"Weight",
+                "value":"Approx 510 grams"
+            }
+        ]
+    },
+    {
+        "id":5,
+        "name":"FRXBionic7",
+        "description":"Biometric Access Control Device",
+        "features":[
+            {"key":"Processor", "value":"ARM Cortex A8 @ 800 MHZ"},
+            {"key":"Memory", "value":"512 MB"},
+            {"key":"Storage", "value":"256MB Flash"},
+            {"key":"Display", "value":"7 Inch Touch Screen TFT Color LCD with 320x240 Virtual Keypad on LCD"},
+            {"key":"OS", "value":"Android"},
+            {
+                "key":"Keyboard",
+                "value":"Virtual Keypad"
+            },
+            {
+                "key":"Interface/Connectors",
+                "value":"A) 1x RS-232 (RJ 45 connector for console/Serial port) \nB) USB Device – 1 \nC) USB Host-1"
+            },
+            {
+                "key":"Speaker",
+                "value":"1W Audio Speaker supporting MP3 and WAV file"
+            },
+            {
+                "key":"Fingerprint Scanner",
+                "value":"STQC and Level 0 Certified"
+            },
+            {
+                "key":"Fingerpint storage",
+                "value":"100000"
+            },
+            {
+                "key":"Contactless card reader",
+                "value":"ISO1443, NFC inbuilt proximity card/Mifare, Supports read and write"
+            },
+            {
+                "key":"Communication Module",
+                "value":"A) LAN 10/100/1000 BASE-T (Ethernet) \nB) DUAL SIM CARD with 3G & 4G data support \nC) Wi-Fi IEEE 802.11b/g/n)"
+            },
+            {
+                "key":"GPS",
+                "value":"Optional"
+            },
+            {
+                "key":"Power Adaptor",
+                "value":"AC input 10-240V, 50/60Hz, DC output 9V.2.2A"
+            },
+            {
+                "key":"Battery",
+                "value":"Battery Backup 5 Hours"
+            },
+            {
+                "key":"Enclosure",
+                "value":"Rugged casing made up of ABS+PC Complying to IP51 Standard and wall mount facility to be provided"
+            },
+            {
+                "key":"Operating Temperature",
+                "value":"0°C to 55°C"
+            },
+            {
+                "key":"Safety",
+                "value":"CE Certified"
+            },
+            {
+                "key":"Drop Test",
+                "value":"3-4 Feet Drop test"
+            },
+            {
+                "key":"Certifications",
+                "value":"1) BIS 2) RoHS 3) IP 51 4) STQC certified 5) CE"
+            },
+            {
+                "key":"SD Card Provision",
+                "value":"Provision Micro SD Card Reader (upto 32 GB)"
+            },
+            {
+                "key":"Application compatibility",
+                "value":"NIC AEBAS application compatibility, Third party integration if required."
+            },
+            {
+                "key":"Accessories",
+                "value":"Power Adapter, USB cable"
+            }
+        ]
+    },
+    {
+        "id":6,
+        "name":"FRXmBrix",
+        "description":"Biometric Access Control Device",
+        "features":[
+            {
+                "key":"Display",
+                "value":"3.5 Inch Touch Screen TFT Color LCD with 320x240 Virtual Keypad on LCD"
+            },
+            {
+                "key":"Micro Processor",
+                "value":"ARM Cortex A8 @ 800 MHZ"
+            },
+            {
+                "key":"",
+                "value":""
+            },
+            {
+                "key":"Memory",
+                "value":"512MB"
+            },
+            {
+                "key":"Storage",
+                "value":"256MB Flash"
+            },
+            {
+                "key":"Operating system",
+                "value":"Linux OS (RTOS)"
+            },
+            {
+                "key":"Keyboard",
+                "value":"Physical integrated QWERTY Keypad, Alpha Numeric (A-Z,0-9): Function keys (F1-F10)"
+            },
+            {
+                "key":"Interface/Connectors",
+                "value":"A) 1x RS-232 (RJ 45 connector for console/Serial port) \nB) USB Device – 1 \nC) USB Host-1"
+            },
+            {
+                "key":"Speaker",
+                "value":"1W Audio Speaker supporting MP3 and WAV file"
+            },
+            {
+                "key":"Fingerprint Scanner",
+                "value":"STQC and Level 0 Certified"
+            },
+            {
+                "key":"Contactless card reader",
+                "value":"ISO1443, NFC inbuilt proximity card/Mifare, Supports read and write"
+            },
+            {
+                "key":"Communication Module",
+                "value":"A) LAN 10/100/1000 BASE-T (Ethernet) \nB) DUAL SIM CARD with 3G & 4G data support \nC) Wi-Fi IEEE 802.11b/g/n)"
+            },
+            {
+                "key":"GPS",
+                "value":"Optional"
+            },
+            {
+                "key":"Power Adaptor",
+                "value":"AC input 10-240V, 50/60Hz, DC output 9V.2.2A"
+            },
+            {
+                "key":"Battery",
+                "value":"2000mAH"
+            },
+            {
+                "key":"Enclosure",
+                "value":"Rugged casing made up of ABS+PC Complying to IP51 Standard and wall mount facility to be provided"
+            },
+            {
+                "key":"Operating Temperature",
+                "value":"0°C to 55°C"
+            },
+            {
+                "key":"Safety",
+                "value":"CE Certified"
+            },
+            {
+                "key":"Drop Test",
+                "value":"3-4 Feet Drop test"
+            },
+            {
+                "key":"Certifications",
+                "value":"1) BIS 2) RoHS 3) IP 51 4) STQC certified 5) CE"
+            },
+            {
+                "key":"SD Card Provision",
+                "value":"Provision Micro SD Card Reader (upto 32 GB)"
+            },
+            {
+                "key":"Application compatibility",
+                "value":"NIC AEBAS application compatibility, Third party integration if required."
+            },
+            {
+                "key":"Accessories",
+                "value":"Power Adapter, USB cable"
+            }
+        ]
+    },
+    {
+        "id":7,
+        "name":"FRXMFSTAB 4G",
+        "description":"Fingerprint Biometric Machine",
+        "features":[
+            {
+                "key":"Display",
+                "value":"7 inch TFT LCD"
+            },
+            {
+                "key":"Processor",
+                "value":"1.3 GHz Quad Core, 64bit"
+            },
+            {
+                "key":"RAM",
+                "value":"2GB RAM"
+            },
+            {
+                "key":"Memory",
+                "value":"8GB with Expandable up to 32GB"
+            },
+            {
+                "key":"OS",
+                "value":"Android 8.1 GMS"
+            },
+            {
+                "key":"Display Resolution",
+                "value":"1024 x 600 Pixels"
+            },
+            {
+                "key":"Audio Jack",
+                "value":"Yes"
+            },
+            {
+                "key":"Ports",
+                "value":"Micro USB v2.0 Port - 1nos. (With OTG Support) or One Micro USB v2.0 Port & One Round Pin Charger Connector"
+            },
+            {
+                "key":"WiFi",
+                "value":"802.11 b/g/n 2.4GHz"
+            },
+            {
+                "key":"Bluetooth",
+                "value":"Bluetooth Classic"
+            },
+            {
+                "key":"SIM Slot",
+                "value":"Dual SIM Card"
+            },
+            {
+                "key":"GPS",
+                "value":"GPS/AGPS"
+            },
+            {
+                "key":"Camera",
+                "value":"5MP Autofocus Rear Camera with LED"
+            },
+            {
+                "key":"Baseband Version",
+                "value":"MOLY.LR9.W1449.MD.LWTG.MP.V190,2018/06/13"
+            },
+            {
+                "key":"Battery",
+                "value":"3500 mAh"
+            },
+            {
+                "key":"Certification",
+                "value":"ISO Compatible Fingerprint Templates and Images ANSI Compatible Fingerprint Templates and Images 500 DPI STQC/Aadhaar Approved Fingerprint Sensor CE, IEC60950, RoHS Certified Fingerprint Sensor"
+            },
+            {
+                "key":"Connectivity",
+                "value":"GPRS/EDGE Enabled, 2G, 3G, 4G, GPS"
+            },
+            {
+                "key":"Acceptance and Rejection Rate",
+                "value":"Lower FRR and FAR"
+            }
+        ]
+    },
+    {
+        "id":8,
+        "name":"MFSTAB 3G + LAN",
+        "description":"Fingerprint Biometric Machine",
+        "features":[
+            {
+                "key":"Display",
+                "value":"7 inch TFT LCD"
+            },
+            {
+                "key":"Processor",
+                "value":"1.2 GHz Quad Core, 32bit"
+            },
+            {
+                "key":"RAM",
+                "value":"1GB RAM"
+            },
+            {
+                "key":"Memory",
+                "value":"8GB with Expandable up to 32GB"
+            },
+            {
+                "key":"OS",
+                "value":"Android"
+            },
+            {
+                "key":"Display Resolution",
+                "value":"1024 x 600 Pixels"
+            },
+            {
+                "key":"Audio Jack",
+                "value":"Yes"
+            },
+            {
+                "key":"Ports",
+                "value":"Micro USB v2.0 Port - 1nos. (With OTG Support) or One Micro USB v2.0 Port & One Round Pin Charger Connector"
+            },
+            {
+                "key":"WiFi",
+                "value":"802.11 b/g/n 2.4GHz"
+            },
+            {
+                "key":"Bluetooth",
+                "value":"Bluetooth V 4.0"
+            },
+            {
+                "key":"SIM Slot",
+                "value":"Supports 3G Bands & Dual SIM Card"
+            },
+            {
+                "key":"GPS",
+                "value":"GPS/AGPS"
+            },
+            {
+                "key":"Camera",
+                "value":"Rear Camera with AF 5 MP resolution with LED Flash"
+            },
+            {
+                "key":"Baseband Version",
+                "value":"MOLY.WR8.W1449.MD.WG.MP.V173.2,2018/04/24"
+            },
+            {
+                "key":"Battery",
+                "value":"3200 mAh"
+            },
+            {
+                "key":"Certification",
+                "value":"ISO Compatible Fingerprint Templates and Images ANSI Compatible Fingerprint Templates and Images 500 DPI STQC/Aadhaar Approved Fingerprint Sensor CE, IEC60950,RoHS Certified Fingerprint Sensor"
+            },
+            {
+                "key":"Connectivity",
+                "value":"GPRS/EDGE Enabled, 2G, 3G, LAN"
+            },
+            {
+                "key":"Acceptance and Rejection Rate",
+                "value":"Lower FRR and FAR"
+            }
+        ]
+    },
+    {
+        "id":9,
+        "name":"MFSTAB 3G",
+        "description":"Fingerprint Biometric Machine",
+        "features":[
+            {
+                "key":"Display",
+                "value":"7 inch TFT LCD"
+            },
+            {
+                "key":"Processor",
+                "value":"1.2 GHz Quad Core, 32bit"
+            },
+            {
+                "key":"RAM",
+                "value":"1GB RAM"
+            },
+            {
+                "key":"Memory",
+                "value":"8GB with Expandable up to 32GB"
+            },
+            {
+                "key":"OS",
+                "value":"Android"
+            },
+            {
+                "key":"Display Resolution",
+                "value":"1024 x 600 Pixels"
+            },
+            {
+                "key":"Audio Jack",
+                "value":"Yes"
+            },
+            {
+                "key":"Ports",
+                "value":"Micro USB v2.0 Port - 1nos. (With OTG Support) or One Micro USB v2.0 Port & One Round Pin Charger Connector"
+            },
+            {
+                "key":"WiFi",
+                "value":"802.11 b/g/n 2.4GHz"
+            },
+            {
+                "key":"Bluetooth",
+                "value":"Bluetooth V 4.0"
+            },
+            {
+                "key":"SIM Slot",
+                "value":"Supports 3G Bands & Dual SIM Card"
+            },
+            {
+                "key":"GPS",
+                "value":"GPS/AGPS"
+            },
+            {
+                "key":"Camera",
+                "value":"Rear Camera with AF 5 MP resolution with LED Flash"
+            },
+            {
+                "key":"Baseband Version",
+                "value":"MOLY.WR8.W1449.MD.WG.MP.V173.2,2018/04/24"
+            },
+            {
+                "key":"Battery",
+                "value":"3200 mAh"
+            },
+            {
+                "key":"Certification",
+                "value":"ISO Compatible Fingerprint Templates and Images ANSI Compatible Fingerprint Templates and Images 500 DPI STQC/Aadhaar Approved Fingerprint Sensor CE, IEC60950,RoHS Certified Fingerprint Sensor"
+            },
+            {
+                "key":"Connectivity",
+                "value":"GPRS/EDGE Enabled, 2G, 3G, LAN"
+            },
+            {
+                "key":"Acceptance and Rejection Rate",
+                "value":"Lower FRR and FAR"
+            }
+        ]
+    }
+    
+]
