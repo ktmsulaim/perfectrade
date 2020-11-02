@@ -120,8 +120,17 @@
                         <h5>About Us</h5>
                     </div>
                     <div class="left-text">
-                        <p><b>Perfect trade FZE</b> is an international wholesaler and distributor of video games, consoles and accessories.</p>
-                        <p>This business plan is for Trading & Distribution of Electronic Devices Specially focusing on Gaming and Entertainment products. Having a wide network of potential customers in Europe, Middle East-African Regions and also Far East. The main aim is to Explore the market with fast and Trusted Services to expand the customer networks globally.</p>
+                        <p><b>Perfect trade FZE</b> is an international wholesaler and distributor of video games, consoles,accessories and security produts.</p>
+                            <p>We have direct relationships with large global suppliers and we always buy large quantities of stock. Both of these factors contribute towards our very low prices. We hold physical stock and are able to dispatch orders efficiently and safely anywhere in the world using our trusted delivery network. Having a wide network of potential customers in Europe, Middle East-African Regions and also Far East. The main aim is to Explore the market with fast and Trusted Services to expand the customer networks globally.</p>
+                            
+                            <div class="read-more-text">
+                                <p>Our rapidly growing customer database consists of distributors, high street retailers, internet retailers, corporate resellers, mail order companies and independent retailers. Ever-increasing demand means that our stock sells fast, so we constantly replenish stock and sell for the most competitive prices.</p>
+                                
+                                <p>Our unrivalled level of service ensures that our customers are always satisfied. Sales, customer services, accounts and technical support staff will always be available to assist customers with any enquiries.</p>
+                            </div>
+                        <div class="text-right">
+                            <span class="read-more">Read more</span>
+                        </div>
                         <a href="#about2" class="main-button goTo">Discover More</a>
                     </div>
                 </div>
@@ -137,7 +146,7 @@
 
 
     <!-- ***** Features Big Item Start ***** -->
-    <section class="section" id="about2">
+    <section class="section bg-light" id="about2">
         <div class="container">
             <div class="row">
                 <div class="left-text col-lg-5 col-md-12 col-sm-12 mobile-bottom-fix">
@@ -183,7 +192,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h2 class="text-white">Games & Entertainment</h2>
+                        <h2>Games & Entertainment</h2>
                     </div>
                 </div>
             </div>
@@ -191,66 +200,6 @@
     </section>
     <section class="section" id="services">
         <div class="container" id="brands">
-            <!-- <div class="row"> -->
-                <!-- <div class="owl-carousel owl-theme" id="games-products">
-                    <div class="item service-item">
-                        <div class="icon">
-                            <i><img src="assets/images/service-icon-01.png" alt=""></i>
-                        </div>
-                        <h5 class="service-title">First Box Service</h5>
-                        <p>Aenean vulputate massa sed neque consectetur, ac fringilla quam aliquet. Sed a enim nec eros tempor cursus at id libero.</p>
-                        <a href="#" class="main-button">Read More</a>
-                    </div>
-                    <div class="item service-item">
-                        <div class="icon">
-                            <i><img src="assets/images/service-icon-02.png" alt=""></i>
-                        </div>
-                        <h5 class="service-title">Second Box Title</h5>
-                        <p>Pellentesque vitae urna ut nisi viverra tristique quis at dolor. In non sodales dolor, id egestas quam. Aliquam erat volutpat. </p>
-                        <a href="#" class="main-button">Discover More</a>
-                    </div>
-                    <div class="item service-item">
-                        <div class="icon">
-                            <i><img src="assets/images/service-icon-03.png" alt=""></i>
-                        </div>
-                        <h5 class="service-title">Third Title Box</h5>
-                        <p>Quisque finibus libero augue, in ultrices quam dictum id. Aliquam quis tellus sit amet urna tincidunt bibendum.</p>
-                        <a href="#" class="main-button">More Detail</a>
-                    </div>
-                    <div class="item service-item">
-                        <div class="icon">
-                            <i><img src="assets/images/service-icon-02.png" alt=""></i>
-                        </div>
-                        <h5 class="service-title">Fourth Service Box</h5>
-                        <p>Fusce sollicitudin feugiat risus, tempus faucibus arcu blandit nec. Duis auctor dolor eu scelerisque vestibulum.</p>
-                        <a href="#" class="main-button">Read More</a>
-                    </div>
-                    <div class="item service-item">
-                        <div class="icon">
-                            <i><img src="assets/images/service-icon-01.png" alt=""></i>
-                        </div>
-                        <h5 class="service-title">Fifth Service Title</h5>
-                        <p>Curabitur aliquam eget tellus id porta. Proin justo sapien, posuere suscipit tortor in, fermentum mattis elit.</p>
-                        <a href="#" class="main-button">Discover</a>
-                    </div>
-                    <div class="item service-item">
-                        <div class="icon">
-                            <i><img src="assets/images/service-icon-03.png" alt=""></i>
-                        </div>
-                        <h5 class="service-title">Sixth Box Title</h5>
-                        <p>Ut nibh velit, aliquam vitae pellentesque nec, convallis vitae lacus. Aliquam porttitor urna ut pellentesque.</p>
-                        <a href="#" class="main-button">Detail</a>
-                    </div>
-                    <div class="item service-item">
-                        <div class="icon">
-                            <i><img src="assets/images/service-icon-01.png" alt=""></i>
-                        </div>
-                        <h5 class="service-title">Seventh Title Box</h5>
-                        <p>Sed a consequat velit. Morbi lectus sapien, vestibulum et sapien sit amet, ultrices malesuada odio. Donec non quam.</p>
-                        <a href="#" class="main-button">Read More</a>
-                    </div>
-                </div> -->
-            <!-- </div> -->
             <div class="row" id="brands-content">
                 <div class="left-text col-lg-4 col-md-4 col-sm-12">
                     <ul class="nav flex-column" id="brandsTab" role="tablist">
@@ -513,15 +462,15 @@
                         <div class="email">
                             <i class="fal fa-envelope fa-fw"></i> info@perfecttradefze.com
                         </div>
-                    </div>
-                    <div id="map">
-                      <!-- How to change your own map point
-                           1. Go to Google Maps
-                           2. Click on your location point
-                           3. Click "Share" and choose "Embed map" tab
-                           4. Copy only URL and paste it within the src="" field below
-                    -->
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1197183.8373802372!2d-1.9415093691103689!3d6.781986417238027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb96f349e85efd%3A0xb8d1e0b88af1f0f5!2sKumasi+Central+Market!5e0!3m2!1sen!2sth!4v1532967884907" width="100%" height="250px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <div class="address">
+                            <i class="fal fa-map-marker fa-fw"></i>
+                            <p>
+                                Office LOB 7 F27 <br>
+                                Pobox no 18357 <br>
+                                Jebalali Dubai <br>
+                                UAE
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <!-- ***** Contact Map End ***** -->
@@ -556,6 +505,19 @@
                     </div>
                 </div>
                 <!-- ***** Contact Form End ***** -->
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="map">
+                        <!-- How to change your own map point
+                             1. Go to Google Maps
+                             2. Click on your location point
+                             3. Click "Share" and choose "Embed map" tab
+                             4. Copy only URL and paste it within the src="" field below
+                      -->
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3616.333792554342!2d55.08458421500526!3d24.988771383993612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjTCsDU5JzE5LjYiTiA1NcKwMDUnMTIuNCJF!5e0!3m2!1sen!2sin!4v1604324529049!5m2!1sen!2sin" width="100%" height="300px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                      </div>
+                </div>
             </div>
         </div>
     </section>

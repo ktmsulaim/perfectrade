@@ -276,4 +276,24 @@
     $(target).addClass('show active');
     $(this).addClass("active");
  });
+
+
+ // read more
+ function readMore(){
+   const text = $('.read-more-text');
+   text.hide();
+
+   $('.read-more').on('click', function(e){
+     const btn = $(e.target);
+    text.slideToggle();
+    console.log(btn.text());
+    if(btn.text() == 'Read more'){
+      btn.text('Read less');
+    } else {
+      btn.text('Read more');
+    }
+   });
+ }
+
+ readMore();
 })(window.jQuery);
