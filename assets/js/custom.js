@@ -296,4 +296,36 @@
  }
 
  readMore();
+
+
+ /**
+  * Email JS
+  */
+
+ $('#contact').on('submit', function(e){
+    e.preventDefault();
+    const data = $(this).serializeArray();
+    const params = {
+      name: data[0].value,
+      email: data[1].value,
+      message: data[2].value
+    };
+    const btn = $('#form-submit');
+    const resp = $(this).find('.response');
+
+    btn.text('Sending');
+    btn.attr('disabled', 'disabled');
+
+    emailjs.send('service_hfy19uf', 'contact_response', params)
+    .then(function(response) {
+      resp.html(`<div class="alert alert-success">The message has been sent!</div>`);
+      $(this).find('input, textarea').val('');
+      btn.text('Send It');
+      btn.removeAttr('disabled');
+    }, function(error) {
+      resp.html(`<div class="alert alert-danger">Sorry! Unable to send the message!</div>`);
+      btn.text('Send It');
+      btn.removeAttr('disabled');
+    });
+ });
 })(window.jQuery);
