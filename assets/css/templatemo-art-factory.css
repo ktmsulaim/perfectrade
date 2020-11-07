@@ -982,45 +982,6 @@ services
   background: url(../images/bg1.jpg);
   background-size: cover;
   background-position: center center;
-  /* background: rgba(0, 136, 232, 1);
-  background: -moz-linear-gradient(
-    -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
-  );
-  background: -webkit-gradient(
-    left top,
-    right bottom,
-    color-stop(0%, rgba(0, 136, 232, 1)),
-    color-stop(0%, rgba(0, 182, 198, 1)),
-    color-stop(100%, rgba(0, 136, 232, 1))
-  );
-  background: -webkit-linear-gradient(
-    -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
-  );
-  background: -o-linear-gradient(
-    -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
-  );
-  background: -ms-linear-gradient(
-    -45deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
-  );
-  background: linear-gradient(
-    135deg,
-    rgba(0, 136, 232, 1) 0%,
-    rgba(0, 182, 198, 1) 0%,
-    rgba(0, 136, 232, 1) 100%
-  );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0088e8', endColorstr='#0088e8', GradientType=1 ); */
 }
 
 #services::before {
@@ -1407,7 +1368,7 @@ contact
 
 .contact-form input,
 .contact-form textarea {
-  color: #777;
+  color: #fff;
   font-size: 14px;
   border: none;
   width: 100%;
@@ -1638,15 +1599,58 @@ preloader
   .contact-details {
     padding: 30px;
   }
+
+  section#game {
+    background-position: center center;
+    background-size: 150% !important;
+  }
 }
 
 section#game {
   padding: 100px 0;
   text-align: center;
-  background: url(../images/bg2.jpg) no-repeat;
-  background-size: cover;
-  background-position: bottom center;
   position: relative;
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(0, 136, 232, 1) 0%,
+    rgba(0, 182, 198, 1) 0%,
+    rgba(0, 136, 232, 1) 100%
+  );
+  background: -webkit-gradient(
+    left top,
+    right bottom,
+    color-stop(0%, rgba(0, 136, 232, 1)),
+    color-stop(0%, rgba(0, 182, 198, 1)),
+    color-stop(100%, rgba(0, 136, 232, 1))
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(0, 136, 232, 1) 0%,
+    rgba(0, 182, 198, 1) 0%,
+    rgba(0, 136, 232, 1) 100%
+  );
+  background: -o-linear-gradient(
+    -45deg,
+    rgba(0, 136, 232, 1) 0%,
+    rgba(0, 182, 198, 1) 0%,
+    rgba(0, 136, 232, 1) 100%
+  );
+  background: -ms-linear-gradient(
+    -45deg,
+    rgba(0, 136, 232, 1) 0%,
+    rgba(0, 182, 198, 1) 0%,
+    rgba(0, 136, 232, 1) 100%
+  );
+  background: linear-gradient(
+      135deg,
+      rgba(0, 136, 232, 0.75) 0%,
+      rgba(0, 182, 198, 0.75) 0%,
+      rgba(0, 136, 232, 0.75) 100%
+    ),
+    url(../images/bg4.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
 }
 
 section#game::after {
@@ -1659,10 +1663,6 @@ section#game::after {
   border-top-left-radius: 35px;
   border-top-right-radius: 35px;
   background: #fff;
-}
-
-section#game h2 {
-  margin-bottom: 120px;
 }
 
 /*

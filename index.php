@@ -192,7 +192,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-heading">
-                        <h2>Games & Entertainment</h2>
+                        <h2 class="text-white">Our products</h2>
                     </div>
                 </div>
             </div>
@@ -465,10 +465,10 @@
                         <div class="address">
                             <i class="fal fa-map-marker fa-fw"></i>
                             <p>
-                                Office LOB 7 F27 <br>
-                                Pobox no 18357 <br>
-                                Jebalali Dubai <br>
-                                UAE
+                                Office.No: LOB7F27 <br>
+                                P.O Box: 18357 <br>
+                                Jebal Ali Free Zone, Dubai <br>
+                                U.A.E
                             </p>
                         </div>
                     </div>
@@ -478,7 +478,12 @@
                 <!-- ***** Contact Form Start ***** -->
                 <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="contact-form">
-                        <form id="contact" action="" method="post">
+                        <form id="contact" method="post">
+                            <div class="row">
+                                <div class="col-md-12 my-2">
+                                    <div class="response"></div>
+                                </div>
+                            </div>
                           <div class="row">
                             <div class="col-md-6 col-sm-12">
                               <fieldset>
@@ -487,7 +492,7 @@
                             </div>
                             <div class="col-md-6 col-sm-12">
                               <fieldset>
-                                <input name="email" type="text" id="email" placeholder="E-mail" required="" class="contact-field">
+                                <input name="email" type="email" id="email" placeholder="E-mail" required="" class="contact-field">
                               </fieldset>
                             </div>
                             <div class="col-lg-12">
@@ -560,6 +565,14 @@
     
     <!-- Products -->
     <script type="text/javascript" src="assets/js/products.js"></script>
+    <!-- Email js -->
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        (function() {
+        emailjs.init("user_ImCKcBKPnMmBOEDumq5s8");
+        })();
+    </script>
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
 
