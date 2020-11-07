@@ -19,6 +19,8 @@
     }
   });
 
+
+
   $("#security-products").owlCarousel({
     loop: true,
     margin: 15,
@@ -268,6 +270,7 @@
     );
   });
 
+  
   $(".nav .nav-link").on("click", function(){
     $(".nav").find(".active").removeClass("active");
     const target = $(this).data('target');
@@ -276,6 +279,28 @@
     $(target).addClass('show active');
     $(this).addClass("active");
  });
+
+
+
+ function autoScrollGameTabs(){
+   const navLinks = $('.nav .nav-link');
+   let index = 0;
+
+  navLinks[index].click();
+
+  setInterval(function(){
+    
+    index++;
+
+    if(index == navLinks.length){
+        index = 0;
+    }
+    
+    navLinks[index].click();
+  }, 3000);
+ }
+ 
+ autoScrollGameTabs();
 
 
  // read more
