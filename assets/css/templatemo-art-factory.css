@@ -978,7 +978,7 @@ services
 */
 #services {
   position: relative;
-  padding: 80px 0px 90px 0px;
+  padding: 40px 0px 90px 0px;
   background: url(../images/bg1.jpg);
   background-size: cover;
   background-position: center center;
@@ -1183,7 +1183,6 @@ accordions
 */
 
 #frequently-question,
-#brands,
 #security {
   padding: 120px 0px;
 }
@@ -1668,6 +1667,9 @@ section#game::after {
 /*
 | Brands
 */
+#brands {
+  padding: 40px 0;
+}
 
 #brands .nav-link {
   display: block;
