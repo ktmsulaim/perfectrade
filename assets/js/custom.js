@@ -3,12 +3,16 @@
 
   $("#games-products").owlCarousel({
     loop: true,
-    margin: 30,
+    margin: 15,
     nav: true,
     pagination: true,
+    autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
+    // stagePadding: 2,
     responsive: {
       0: {
-        items: 1
+        items: 1,
       },
       600: {
         items: 2
@@ -24,7 +28,7 @@
   $("#security-products").owlCarousel({
     loop: true,
     margin: 15,
-    stagePadding: 15,
+    stagePadding: 3,
     nav: false,
     autoplay:true,
     autoplayTimeout:3000,
@@ -300,7 +304,7 @@
   }, 3000);
  }
  
- autoScrollGameTabs();
+//  autoScrollGameTabs();
 
 
  // read more
