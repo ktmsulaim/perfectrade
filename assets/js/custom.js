@@ -1,11 +1,12 @@
 (function($) {
   "use strict";
 
-  $("#games-products").owlCarousel({
+  $("#gamesent, #hdtel, #digicam, #memstorage").owlCarousel({
     loop: true,
     margin: 15,
-    nav: true,
+    nav: false,
     pagination: true,
+    stagePadding: 3,
     autoplay:true,
     autoplayTimeout:3000,
     autoplayHoverPause:true,
@@ -326,7 +327,18 @@
 
  readMore();
 
+ // Resize hieght of category box
+ function equalHeightBox(){
+   const windowWidth = $(window).width();
+   if(windowWidth > 0){
+     const itemHeight = $('#gamesent').find('.item').height();
+     $('#games-title, #hd-title, #digi-title, #storage-title').css({height: itemHeight + 80 + 'px', marginTop: '15px'});
 
+     const securityItemHeight = $('#security-products').find('.item').height();
+     $('#security-title').css({height: securityItemHeight + 80 + 'px', marginTop: '15px'});
+   }
+ }
+ equalHeightBox();
  /**
   * Email JS
   */
